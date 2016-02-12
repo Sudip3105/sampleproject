@@ -10,8 +10,8 @@
         <tbody>
             <? foreach ($users as $user): ?>
             <tr>
-                <td><?= $user['full_name'] ?></td>
-                <td><?= $user['username'] ?></td>
+                <td class="fullname"><?= $user['full_name'] ?></td>
+                <td class="username"><?= $user['username'] ?></td>
             </tr>
             <? endforeach ?>
         </tbody>
